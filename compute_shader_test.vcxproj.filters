@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include=".\thirdparty\glew\src\glew.c">
+      <Filter>thirdparty\glew\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="thirdparty">
+      <UniqueIdentifier>{f3512168-c220-44d2-986d-bdeb899e6dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\glew">
+      <UniqueIdentifier>{bdb99bd2-4a81-4340-8a6b-8ebb60bb3534}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\glew\include">
+      <UniqueIdentifier>{65720529-c799-4a61-8437-e87da65ec09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="thirdparty\glew\src">
+      <UniqueIdentifier>{5ed91c05-d09a-4ffd-8038-87c0baba9a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{38a41ae7-cf46-472e-9bf4-526ea39f2d66}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scene.gs" />
+    <None Include="scene.vertex" />
+    <None Include="scene.frag" />
+    <None Include="scene.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\texture.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\camera.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\shader.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
